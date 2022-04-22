@@ -9,7 +9,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Basics'),
+        leading: const Icon(Icons.sentiment_very_satisfied),
+        title: const Text('My first exercice'),
+        elevation: 3,
       ),
       body: SizedBox(
         //height: MediaQuery.of(context).size.height,
@@ -60,7 +62,7 @@ class HomePage extends StatelessWidget {
                         fontStyle: FontStyle.italic),
                   ),
                   const Text(
-                    "J'ai une bio, mais je sais pas quoi y mettre :/... C'est si triste comme situation ! Aidez-moi",
+                    "Aidez-moi je déteste les moustiques et je suis cerné !",
                     textAlign: TextAlign.center,
                     style: TextStyle(
                         color: Colors.grey, fontWeight: FontWeight.w600),
